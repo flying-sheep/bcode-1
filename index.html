@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>bcode by medecau</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>bcode</h1>
+        <p>bencode encoder and decoder</p>
+
+        <p class="view"><a href="https://github.com/medecau/bcode">View the Project on GitHub <small>medecau/bcode</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/medecau/bcode/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/medecau/bcode/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/medecau/bcode">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>Install:</h1>
+
+<pre><code>pip install bcode
+</code></pre>
+
+<h1>Use:</h1>
+
+<pre><code>from bcode import bdecode
+print bdecode(open('foo.torrent').read())
+</code></pre>
+
+<h1>Documentation:</h1>
+
+<h2>bencode(input)</h2>
+
+<p>Encode python types to bencode format.</p>
+
+<p>Keyword arguments:</p>
+
+<p>input - the input value to be encoded</p>
+
+<h2>bdecode</h2>
+
+<p>Decode strings from bencode format to python value types.</p>
+
+<p>Keyword arguments:
+input -- the input string to be decoded</p>
+
+<p>Learn more about bencode and bittorrent at: <a href="http://wiki.theory.org/BitTorrentSpecification#bencoding">http://wiki.theory.org/BitTorrentSpecification#bencoding</a></p>
+
+<h2>Bugs &amp; Co.</h2>
+
+<p>If you find bugs or new features that are not implemented you can:</p>
+
+<ul>
+<li><a href="https://github.com/medecau/bcode/fork">Fork and implement the changes</a></li>
+<li><a href="https://github.com/medecau/bcode/fork">Fork and write a test that fails but shouldn't</a></li>
+<li><a href="https://github.com/medecau/bcode/issues">Submit an issue in github</a></li>
+</ul>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/medecau">medecau</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
